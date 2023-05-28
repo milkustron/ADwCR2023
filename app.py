@@ -58,4 +58,4 @@ def get_prediction():
     return jsonify(features=features, predicted_class=predicted_class) #features to to co wyprodukowal uzytkownik
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=8080)
